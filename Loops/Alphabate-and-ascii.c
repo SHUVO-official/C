@@ -1,13 +1,12 @@
 #include <stdio.h>
-int main()
-    {   
-        printf("Upper case letter: \n");
-        for(int i=65;i<=90;i++) 
-            printf("<--%c-->\n",i);
+    int main( )
+        {
+            printf("Upper Case Letter: \n");
+            for(int i=65;i<=90;i++)
+                printf("%c  ",i);
+                printf("\n");
             
-        printf("\n\nLower case letter: \n ");
-        for(int i=97;i<=122;i++)
-            printf("<--%c-->\n",i);    
-
-
-    }
+            printf("Lower Case Letter: \n");
+            for(int i=97;i<=122;i++)
+                printf("%c ",i);    
+        }
