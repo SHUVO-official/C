@@ -8,5 +8,6 @@
             
             printf("Lower Case Letter: \n");
             for(int i=97;i<=122;i++)
-                printf("%c ",i);    
+                printf("%c ",i);
+            return 0;        
         }

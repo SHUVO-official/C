@@ -11,5 +11,6 @@ int main()
                 count+=1;
             }
          if(a==0) printf("1");   
-         else printf("%d",count);   
+         else printf("%d",count);
+         return 0;   
     }

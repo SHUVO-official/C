@@ -10,5 +10,6 @@ int main()
                 first=last;
                 last=next;
             }
-        printf("%d",next);    
+        printf("%d",next);
+        return 0;    
     }
