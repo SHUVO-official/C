@@ -22,9 +22,11 @@ int main()
     {
         int n,r;
         scanf("%d%d",&n,&r);
-        int nfact=fact(n);
-        int rfact=fact(r);
-        int nrfact=fact(n-r);
+
+        fact(n);
+        fact(r);
+        fact(n-r);
+        
         int nCr=combination(n,r);
         printf("Combination: %d\n",nCr);
         int nPr=permutation(n,r);
